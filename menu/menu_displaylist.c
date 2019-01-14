@@ -6557,9 +6557,9 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type, void *data)
 //         break;
       case DISPLAYLIST_AUDIO_SETTINGS_LIST:
          menu_entries_ctl(MENU_ENTRIES_CTL_CLEAR, info->list);
-         if (menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_MIDI_SETTINGS,   PARSE_ACTION, false) == 0)
-            count++;
+//         if (menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_MIDI_SETTINGS,   PARSE_ACTION, false) == 0)
+//            count++;
 //         if (menu_displaylist_parse_settings_enum(menu, info,
 //               MENU_ENUM_LABEL_AUDIO_MIXER_SETTINGS,   PARSE_ACTION, false) == 0)
 //            count++;
