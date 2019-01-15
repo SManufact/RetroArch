@@ -5575,32 +5575,33 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type, void *data)
       case DISPLAYLIST_MENU_VIEWS_SETTINGS_LIST:
          menu_entries_ctl(MENU_ENTRIES_CTL_CLEAR, info->list);
 
-         menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_QUICK_MENU_VIEWS_SETTINGS,
-               PARSE_ACTION, false);
+//         menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_QUICK_MENU_VIEWS_SETTINGS,
+//               PARSE_ACTION, false);
 
-         menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_MENU_SHOW_LOAD_CORE,
-               PARSE_ONLY_BOOL, false);
+//         menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_MENU_SHOW_LOAD_CORE,
+//               PARSE_ONLY_BOOL, false);
 
-         menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_MENU_SHOW_LOAD_CONTENT,
-               PARSE_ONLY_BOOL, false);
+//         menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_MENU_SHOW_LOAD_CONTENT,
+//               PARSE_ONLY_BOOL, false);
 
-         menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_MENU_SHOW_ONLINE_UPDATER,
-               PARSE_ONLY_BOOL, false);
-         menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_MENU_SHOW_CORE_UPDATER,
-               PARSE_ONLY_BOOL, false);
+//         menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_MENU_SHOW_ONLINE_UPDATER,
+//               PARSE_ONLY_BOOL, false);
 
-         menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_MENU_SHOW_INFORMATION,
-               PARSE_ONLY_BOOL, false);
+//         menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_MENU_SHOW_CORE_UPDATER,
+//               PARSE_ONLY_BOOL, false);
 
-         menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_MENU_SHOW_CONFIGURATIONS,
-               PARSE_ONLY_BOOL, false);
+//         menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_MENU_SHOW_INFORMATION,
+//               PARSE_ONLY_BOOL, false);
+
+//         menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_MENU_SHOW_CONFIGURATIONS,
+//               PARSE_ONLY_BOOL, false);
 
 //         menu_displaylist_parse_settings_enum(menu, info,
 //               MENU_ENUM_LABEL_MENU_SHOW_HELP,
@@ -5622,13 +5623,13 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type, void *data)
                MENU_ENUM_LABEL_MENU_SHOW_SHUTDOWN,
                PARSE_ONLY_BOOL, false);
 
-         menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_CONTENT_SHOW_SETTINGS,
-               PARSE_ONLY_BOOL, false);
+//         menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_CONTENT_SHOW_SETTINGS,
+//               PARSE_ONLY_BOOL, false);
 
-         menu_displaylist_parse_settings_enum(menu, info,
-               MENU_ENUM_LABEL_CONTENT_SHOW_SETTINGS_PASSWORD,
-               PARSE_ONLY_STRING, false);
+//         menu_displaylist_parse_settings_enum(menu, info,
+//               MENU_ENUM_LABEL_CONTENT_SHOW_SETTINGS_PASSWORD,
+//               PARSE_ONLY_STRING, false);
 
          menu_displaylist_parse_settings_enum(menu, info,
                MENU_ENUM_LABEL_CONTENT_SHOW_FAVORITES,
