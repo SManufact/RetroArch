@@ -6313,32 +6313,32 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type, void *data)
          info->need_refresh = true;
          info->need_push    = true;
          break;
-      case DISPLAYLIST_PRIVACY_SETTINGS_LIST:
-         menu_entries_ctl(MENU_ENTRIES_CTL_CLEAR, info->list);
+//      case DISPLAYLIST_PRIVACY_SETTINGS_LIST:
+//         menu_entries_ctl(MENU_ENTRIES_CTL_CLEAR, info->list);
 
-         if (menu_displaylist_parse_settings_enum(menu, info,
-                  MENU_ENUM_LABEL_CAMERA_ALLOW,
-                  PARSE_ONLY_BOOL, false) == 0)
-            count++;
-         if (menu_displaylist_parse_settings_enum(menu, info,
-                  MENU_ENUM_LABEL_DISCORD_ALLOW,
-                  PARSE_ONLY_BOOL, false) == 0)
-            count++;
-         if (menu_displaylist_parse_settings_enum(menu, info,
-                  MENU_ENUM_LABEL_LOCATION_ALLOW,
-                  PARSE_ONLY_BOOL, true) == 0)
-            count++;
+//         if (menu_displaylist_parse_settings_enum(menu, info,
+//                  MENU_ENUM_LABEL_CAMERA_ALLOW,
+//                  PARSE_ONLY_BOOL, false) == 0)
+//            count++;
+//         if (menu_displaylist_parse_settings_enum(menu, info,
+//                  MENU_ENUM_LABEL_DISCORD_ALLOW,
+//                  PARSE_ONLY_BOOL, false) == 0)
+//            count++;
+//         if (menu_displaylist_parse_settings_enum(menu, info,
+//                  MENU_ENUM_LABEL_LOCATION_ALLOW,
+//                  PARSE_ONLY_BOOL, true) == 0)
+//            count++;
 
-         if (count == 0)
-            menu_entries_append_enum(info->list,
-                  msg_hash_to_str(MENU_ENUM_LABEL_VALUE_NO_SETTINGS_FOUND),
-                  msg_hash_to_str(MENU_ENUM_LABEL_NO_SETTINGS_FOUND),
-                  MENU_ENUM_LABEL_NO_SETTINGS_FOUND,
-                  0, 0, 0);
+//         if (count == 0)
+//            menu_entries_append_enum(info->list,
+//                  msg_hash_to_str(MENU_ENUM_LABEL_VALUE_NO_SETTINGS_FOUND),
+//                  msg_hash_to_str(MENU_ENUM_LABEL_NO_SETTINGS_FOUND),
+//                  MENU_ENUM_LABEL_NO_SETTINGS_FOUND,
+//                  0, 0, 0);
 
-         info->need_refresh = true;
-         info->need_push    = true;
-         break;
+//         info->need_refresh = true;
+//         info->need_push    = true;
+//         break;
       case DISPLAYLIST_MIDI_SETTINGS_LIST:
          menu_entries_ctl(MENU_ENTRIES_CTL_CLEAR, info->list);
 
