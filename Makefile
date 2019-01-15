@@ -234,6 +234,7 @@ install: $(TARGET)
 	cp docs/retroarch.6 $(DESTDIR)$(MAN_DIR)/man6
 	cp docs/retroarch-cg2glsl.6 $(DESTDIR)$(MAN_DIR)/man6
 	cp media/retroarch.svg $(DESTDIR)$(DATA_DIR)/pixmaps
+	cp media/purplegrid.gif $(DESTDIR)$(GLOBAL_CONFIG_DIR)
 	cp COPYING $(DESTDIR)$(DOC_DIR)
 	cp README.md $(DESTDIR)$(DOC_DIR)
 	chmod 755 $(DESTDIR)$(BIN_DIR)/$(TARGET)
