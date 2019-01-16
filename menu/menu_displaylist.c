@@ -3107,12 +3107,12 @@ static unsigned menu_displaylist_parse_options(
       count++;
    }
 
-   menu_entries_append_enum(info->list,
-         msg_hash_to_str(MENU_ENUM_LABEL_VALUE_THUMBNAILS_UPDATER_LIST),
-         msg_hash_to_str(MENU_ENUM_LABEL_THUMBNAILS_UPDATER_LIST),
-         MENU_ENUM_LABEL_THUMBNAILS_UPDATER_LIST,
-         MENU_SETTING_ACTION, 0, 0);
-   count++;
+//   menu_entries_append_enum(info->list,
+//         msg_hash_to_str(MENU_ENUM_LABEL_VALUE_THUMBNAILS_UPDATER_LIST),
+//         msg_hash_to_str(MENU_ENUM_LABEL_THUMBNAILS_UPDATER_LIST),
+//         MENU_ENUM_LABEL_THUMBNAILS_UPDATER_LIST,
+//         MENU_SETTING_ACTION, 0, 0);
+//   count++;
 
    menu_entries_append_enum(info->list,
          msg_hash_to_str(MENU_ENUM_LABEL_VALUE_DOWNLOAD_CORE_CONTENT),
@@ -3131,14 +3131,14 @@ static unsigned menu_displaylist_parse_options(
       count++;
    }
 
-#ifdef HAVE_UPDATE_ASSETS
-   menu_entries_append_enum(info->list,
-         msg_hash_to_str(MENU_ENUM_LABEL_VALUE_UPDATE_ASSETS),
-         msg_hash_to_str(MENU_ENUM_LABEL_UPDATE_ASSETS),
-         MENU_ENUM_LABEL_UPDATE_ASSETS,
-         MENU_SETTING_ACTION, 0, 0);
-   count++;
-#endif
+//#ifdef HAVE_UPDATE_ASSETS
+//   menu_entries_append_enum(info->list,
+//         msg_hash_to_str(MENU_ENUM_LABEL_VALUE_UPDATE_ASSETS),
+//         msg_hash_to_str(MENU_ENUM_LABEL_UPDATE_ASSETS),
+//         MENU_ENUM_LABEL_UPDATE_ASSETS,
+//         MENU_SETTING_ACTION, 0, 0);
+//   count++;
+//#endif
 
    menu_entries_append_enum(info->list,
          msg_hash_to_str(MENU_ENUM_LABEL_VALUE_UPDATE_AUTOCONFIG_PROFILES),
@@ -3165,12 +3165,12 @@ static unsigned menu_displaylist_parse_options(
 #endif
 #endif
 
-   menu_entries_append_enum(info->list,
-         msg_hash_to_str(MENU_ENUM_LABEL_VALUE_UPDATE_OVERLAYS),
-         msg_hash_to_str(MENU_ENUM_LABEL_UPDATE_OVERLAYS),
-         MENU_ENUM_LABEL_UPDATE_OVERLAYS,
-         MENU_SETTING_ACTION, 0, 0);
-   count++;
+//   menu_entries_append_enum(info->list,
+//         msg_hash_to_str(MENU_ENUM_LABEL_VALUE_UPDATE_OVERLAYS),
+//         msg_hash_to_str(MENU_ENUM_LABEL_UPDATE_OVERLAYS),
+//         MENU_ENUM_LABEL_UPDATE_OVERLAYS,
+//         MENU_SETTING_ACTION, 0, 0);
+//   count++;
 
    if (video_shader_is_supported(RARCH_SHADER_CG))
    {
