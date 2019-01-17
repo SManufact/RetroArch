@@ -5623,9 +5623,9 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type, void *data)
                MENU_ENUM_LABEL_MENU_SHOW_SHUTDOWN,
                PARSE_ONLY_BOOL, false);
 
-//         menu_displaylist_parse_settings_enum(menu, info,
-//               MENU_ENUM_LABEL_CONTENT_SHOW_SETTINGS,
-//               PARSE_ONLY_BOOL, false);
+         menu_displaylist_parse_settings_enum(menu, info,
+               MENU_ENUM_LABEL_CONTENT_SHOW_SETTINGS,
+               PARSE_ONLY_BOOL, false);
 
 //         menu_displaylist_parse_settings_enum(menu, info,
 //               MENU_ENUM_LABEL_CONTENT_SHOW_SETTINGS_PASSWORD,
@@ -5817,18 +5817,18 @@ bool menu_displaylist_ctl(enum menu_displaylist_ctl_state type, void *data)
 //                  MENU_ENUM_LABEL_XMB_LAYOUT,
 //                  PARSE_ONLY_UINT, false) == 0)
 //            count++;
-         if (menu_displaylist_parse_settings_enum(menu, info,
-                  MENU_ENUM_LABEL_XMB_THEME,
-                  PARSE_ONLY_UINT, false) == 0)
-            count++;
+//         if (menu_displaylist_parse_settings_enum(menu, info,
+//                  MENU_ENUM_LABEL_XMB_THEME,
+//                  PARSE_ONLY_UINT, false) == 0)
+//            count++;
 //         if (menu_displaylist_parse_settings_enum(menu, info,
 //                  MENU_ENUM_LABEL_XMB_SHADOWS_ENABLE,
 //                  PARSE_ONLY_BOOL, false) == 0)
 //            count++;
-//         if (menu_displaylist_parse_settings_enum(menu, info,
-//                  MENU_ENUM_LABEL_XMB_RIBBON_ENABLE,
-//                  PARSE_ONLY_UINT, false) == 0)
-//            count++;
+         if (menu_displaylist_parse_settings_enum(menu, info,
+                  MENU_ENUM_LABEL_XMB_RIBBON_ENABLE,
+                  PARSE_ONLY_UINT, false) == 0)
+            count++;
          if (menu_displaylist_parse_settings_enum(menu, info,
                   MENU_ENUM_LABEL_XMB_MENU_COLOR_THEME,
                   PARSE_ONLY_UINT, false) == 0)
